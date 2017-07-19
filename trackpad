@@ -1,0 +1,10 @@
+#!/bin/sh
+
+case $1/$2 in
+  pre/*)
+    ;;
+  post/*)
+    modprobe -r psmouse
+    modprobe psmouse
+    ;;
+esac
