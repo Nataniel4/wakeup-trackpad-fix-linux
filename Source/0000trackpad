@@ -1,0 +1,9 @@
+#!/bin/sh
+case "$1" in
+	suspend|hibernate)
+;;
+resume|thaw)
+modprobe -r psmouse
+modprobe psmouse
+;;
+esac
