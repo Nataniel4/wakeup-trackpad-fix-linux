@@ -2,8 +2,6 @@
 
 FSE="false"
 
-cd "$(dirname "$0")"
-
 echo ""
 echo "/////// Trackpad Fix Uninstaller ///////"
 echo ""
